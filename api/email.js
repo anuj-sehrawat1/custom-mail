@@ -10,7 +10,7 @@ const PASSWORD = 'gpfUfb1D86g0';
 
 // ✅ Zoho SMTP configuration
 const transporter = nodemailer.createTransport({
-  host: 'smtp.zoho.com',
+  host: 'smtp.zoho.in',
   port: 465,
   secure: true, // SSL
   auth: { user: EMAIL, pass: PASSWORD },
