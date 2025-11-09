@@ -5,8 +5,8 @@ import nodemailer from 'nodemailer';
 // ZOHO_EMAIL=noreply@clyth.online
 // ZOHO_PASS=your_app_password_here
 
-const EMAIL = 'noreply@globaltravelglob.shop';
-const PASSWORD = 'gpfUfb1D86g0';
+const EMAIL = process.env.ZOHO_EMAIL;
+const PASSWORD = process.env.ZOHO_PASS;
 
 // ✅ Zoho SMTP configuration
 const transporter = nodemailer.createTransport({
