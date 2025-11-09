@@ -40,7 +40,7 @@ export default async function handler(req, res) {
     subject,
     message,
     isHtml = 'false',
-    fromName = 'Clyth',
+    fromName = 'GlobalTravel',
   } = req.query;
 
   // Validate required fields
